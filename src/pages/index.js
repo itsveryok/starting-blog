@@ -29,7 +29,7 @@ const IndexPage = () => {
       <BackgroundImage
         Tag="header"
         fluid={data.file.childImageSharp.fluid}
-        style={{ height: "50vh" }}
+        style={{ height: "15vh" }}
       />
     </Layout>
   )
