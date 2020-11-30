@@ -1,8 +1,8 @@
 import React from "react"
-import { Link, graphql, useStaticQuery } from "gatsby"
+import { graphql, useStaticQuery } from "gatsby"
 
 import Layout from "../components/layout"
-import Image from "../components/image"
+// import Image from "../components/image"
 import SEO from "../components/seo"
 import BackgroundImage from "gatsby-background-image"
 
@@ -28,7 +28,7 @@ const IndexPage = () => {
       <SEO title="Home" />
       <BackgroundImage
         Tag="header"
-        fluid={data.file.childImageSharp.fluid}
+        fluid={imageData}
         style={{ height: "15vh" }}
       />
     </Layout>
